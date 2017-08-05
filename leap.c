@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main()
+void main()
 {
 int leap;
 printf("Enter the year");
@@ -12,5 +12,5 @@ elseif(year4%==0)
 printf("%d the year leap year",year);
 else
 printf("%d the year is not leap year",year);
-return 0;
+getch();
 }
